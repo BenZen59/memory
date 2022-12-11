@@ -26,6 +26,7 @@
 
 .cardContent > img{
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .memory{

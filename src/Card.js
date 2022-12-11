@@ -9,14 +9,14 @@ import Card8 from './img/card8.png';
 import CardDos from './img/carddos.png';
 
 const card = [
-  CardDos,
-  CardDos,
-  CardDos,
-  CardDos,
-  CardDos,
-  CardDos,
-  CardDos,
-  CardDos,
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
+  { img: CardDos, flip: false, winpair: false },
 ];
 
 export default card;
