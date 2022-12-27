@@ -1,32 +1,32 @@
-.card{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  flex-wrap: wrap;
+.container{
+ display: flex;
+ flex-direction: column;
   width: 940px;
-  height: 700px;
+  height: 600px;
   box-shadow: 5px 5px 21px 5px #000000;
   border-radius: 8px;
-  padding-left: 165px;
+  padding-left: 145px;
   margin-left: 25%;
   margin-top: 8%;
   background-color: rgb(54, 54, 54);
+}
+
+.cell {
+  display: flex;
+  margin-right: 160px;
+  color: whitesmoke;
+  font-size: 60px;
+  flex-wrap: wrap;
+  margin-left: 75px;
+  margin-top: 30px;
   
 }
 
-.cardContent{
-  margin-top: 10px;
-  background-color: rgb(54, 54, 54);
-  display: flex;
-  flex-flow: wrap; 
-  justify-content: space-around;
-  height: 600px;
-  width: 840px;
-}
-
-.cardContent > img{
-  margin-bottom: 15px;
-  cursor: pointer;
+.letter{
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 70px;
+  width: 30px;
 }
 
 .memory{
@@ -35,4 +35,17 @@
   margin-left: -11%;
   margin-top: 2%;
   text-align: center;
+}
+
+.shuffle {
+  color: white; 
+  background-color: rgb(0, 153, 255); 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-left: 36%;
 }
